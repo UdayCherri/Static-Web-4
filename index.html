@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                screens: {
+                    sm: '480px',
+                    md: '768px',
+                    lg: '976px',
+                    xl: '1440px',
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body class="bg-[#8CA65F]">
+    <header class="flex justify-between px-4 bg-white h-[70px] items-center  text-green-800  ">
+        <div class="text-lg font-bold "><span class="text-green-500">INFJ</span> - MBTI</div>
+            <ul class="menu flex justify-end items-center gap-3">
+                <li>Home</li>   
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+            </ul>
+    </header>
+    <div class="contain flex w-[100%] md:w-[80%] mx-auto justify-between items-center flex-col md:flex-row my-[50px] gap-[50px] text-white">
+        <div class="container_body md:w-[60%] w-[80%]">
+            <h2 class="text-4xl font-bold mb-[20px]">INFJ (Advocate)</h2>
+            <p>Idealistic and principled, people with the INFJ personality type (Advocates) aren't content to coast through life - they want to stand up and make a difference. For these compassionate personalities, success doesn't come from money or status but from seeking fulfillment, helping others, and being a force for good in the world. <br>
+            While they have lofty goals and ambitions, INFJs shouldn't be mistaken for idle dreamers. People with this personality type care about integrity, and they're rarely satisfied until they've done what they know to be right. Conscientious to the core, they move through life with a clear sense of their values, and they aim to never lose sight of what truly matters - not according to other people or society at large but according to their own wisdom and intuition.</p>
+        </div>
+        <img src="images/INFJ.jpeg" alt="" class="rounded-lg w-[40%]">
+    </div>
+    <h2 class="flex justify-center font-bold text-white text-3xl mb-[30px] items-center">Popular anime character with INFJ personality</h2>
+    <div class="cards flex flex-wrap w-[90%] md:w-[80%] mx-auto gap-[30px] justify-center">
+        <div class="card_body shadow-lg md:w-[30%] p-4 w-[300px] bg-white rounded-lg text-green-800" >
+            <img src="images/izuku.jpeg" alt="" class="w-[300px] rounded-md">
+            <h4 class="tex-2xl font-bold flex flex-col items-center">Izuku Midoriya</h4>
+            <p class="text-center">from, My Hero Academia</p>
+        </div>
+        <div class="card_body shadow-lg md:w-[30%] p-4 w-[300px] bg-white rounded-lg text-green-800">
+            <img src="images/itachi.jpeg" alt="" class="w-[300px] rounded-md">
+            <h4 class="tex-2xl font-bold flex flex-col items-center">Itaci Uchiha</h4>
+            <p class="text-center">from, Naruto</p>
+        </div>      
+        <div class="card_body shadow-lg md:w-[30%] p-4 w-[300px] bg-white rounded-lg  text-green-800">
+            <img src="images/isagi.jpeg" alt="" class="w-[300px] rounded-md">
+            <h4 class="tex-2xl font-bold flex flex-col items-center">Yoichi Isagi</h4>
+            <p class="text-center">from, Blue Lock</p>
+        </div>
+        <div class="card_body shadow-lg md:w-[30%] p-4 w-[300px] bg-white rounded-lg  text-green-800">
+            <img src="images/chrollo.jpeg" alt="" class="w-[300px] rounded-md">
+            <h4 class="tex-2xl font-bold flex flex-col items-center">Chrollo Lucifer</h4>
+            <p class="text-center">from, Hunter x Hunter</p>
+        </div>
+        <div class="card_body shadow-lg md:w-[30%] p-4 w-[300px] bg-white rounded-lg  text-green-800">
+            <img src="images/armin.jpeg" alt="" class="w-[300px] rounded-md">
+            <h4 class="tex-2xl font-bold flex flex-col items-center">Armin Alert</h4>
+            <p class="text-center">from, Attack on Titan</p>
+        </div>
+        <div class="card_body shadow-lg md:w-[30%] p-4 w-[300px] bg-white rounded-lg  text-green-800">
+            <img src="images/yuta.jpeg" alt="" class="w-[300px] rounded-md">
+            <h4 class="tex-2xl font-bold flex flex-col items-center">Yuta Okkotsu</h4>
+            <p class="text-center">from, Jujutsu Kaisen</p>
+        </div>
+    </div>
+    <footer class="text-center my-[30px] font-bold">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-google"></i>
+        <p>All rights reserved</p>
+    </footer>
+</body>
+</html>
